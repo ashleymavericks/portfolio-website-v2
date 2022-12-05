@@ -1,4 +1,4 @@
-baseURL = "https://anuragsingh.dev"
+baseURL = "localhost"
 languageCode = "en-us"
 title = "ashleymavericks"
 theme = "hello-friend-ng"
@@ -25,13 +25,13 @@ disableHugoGeneratorInject = true
 
   homeSubtitle = "Backend dev & Hardware enthusiast"
   description = "Personal website and blog of Anurag Singh, a Backend developer"
-  keywords = "anuragsingh, homepage, blog"
+  keywords = "anuragsingh, ashleymavericks, homepage, blog"
   images = [""]
 
   enableSharingButtons = true
 
   [params.portrait]
-    path     = "/img/avatar.png"
+    path     = "/img/avatar.jpg"
     alt      = "Avatar"
     maxWidth = "50px"
 
@@ -42,31 +42,31 @@ disableHugoGeneratorInject = true
 
   [[params.social]]
     name = "twitter"
-    url  = "https://twitter.com/anuragsingh"
-
-  [[params.social]]
-    name = "email"
-    url  = "mailto:singhanurag024@gmail.com"
+    url  = "https://twitter.com/ashleymavericks"
 
   [[params.social]]
     name = "github"
     url  = "https://github.com/ashleymavericks"
 
   [[params.social]]
-    name = "telegram"
-    url  = "https://t.me/ashleymavericks"
-
-  [[params.social]]
     name = "dev"
     url  = "https://dev.to/ashleymavericks"
+
+  [[params.social]]
+    name = "medium"
+    url  = "https://medium.com/@ashleymavericks"
 
   [[params.social]]
     name = "linkedin"
     url  = "https://linkedin.com/in/ashleymavericks/"
 
   [[params.social]]
-    name = "medium"
-    url  = "https://medium.com/@ashleymavericks"
+    name = "telegram"
+    url  = "https://t.me/ashleymavericks"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:hello@anuragsingh.dev"
 
 [languages]
   [languages.en]
@@ -76,7 +76,7 @@ disableHugoGeneratorInject = true
     readOtherPosts = "Read other posts"
 
     # Ideally this would be removed entirely, but the theme doesn't support that
-    footerLeft = '<a href="/terms-of-service">Terms</a> · <a href="/privacy-policy">Privacy</a> · <a href="https://stats.uptimerobot.com/QLkLLS6KYE">Status</a>'
+    footerLeft = '<a href="/terms-of-service">Terms</a> · <a href="/privacy-policy">Privacy</a> · <a href="https://stats.uptimerobot.com/EXpKwilGVY">Status</a>'
     # For license compliance
     footerRight = "Theme by Djordje Atlialp"
 
@@ -95,7 +95,7 @@ disableHugoGeneratorInject = true
     weight     = 1000
 
   [[menu.main]]
-    identifier = "releases"
-    name       = "Releases"
-    url        = "/patreon"
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/posts"
     weight     = -100
