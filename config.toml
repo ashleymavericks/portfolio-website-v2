@@ -1,0 +1,101 @@
+baseURL = "https://anuragsingh.dev"
+languageCode = "en-us"
+title = "ashleymavericks"
+theme = "hello-friend-ng"
+
+paginate = 10
+disableHugoGeneratorInject = true
+
+[minify]
+  minifyOutput = true
+
+[permalinks]
+  posts = "/posts/:year/:month/:title/"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  homeSubtitle = "Backend dev & Hardware enthusiast"
+  description = "Personal website and blog of Anurag Singh, a Backend developer"
+  keywords = "anuragsingh, homepage, blog"
+  images = [""]
+
+  enableSharingButtons = true
+
+  [params.portrait]
+    path     = "/img/avatar.png"
+    alt      = "Avatar"
+    maxWidth = "50px"
+
+  [params.favicon.color]
+    mask = "#1b1c1d"
+    msapplication = "#1b1c1d"
+    theme = "#1b1c1d"
+
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/anuragsingh"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:singhanurag024@gmail.com"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/ashleymavericks"
+
+  [[params.social]]
+    name = "telegram"
+    url  = "https://t.me/ashleymavericks"
+
+  [[params.social]]
+    name = "dev"
+    url  = "https://dev.to/ashleymavericks"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://linkedin.com/in/ashleymavericks/"
+
+  [[params.social]]
+    name = "medium"
+    url  = "https://medium.com/@ashleymavericks"
+
+[languages]
+  [languages.en]
+    title = "Anurag Singh"
+    keywords = ""
+    copyright = 'CC BY-NC 4.0'
+    readOtherPosts = "Read other posts"
+
+    # Ideally this would be removed entirely, but the theme doesn't support that
+    footerLeft = '<a href="/terms-of-service">Terms</a> · <a href="/privacy-policy">Privacy</a> · <a href="https://stats.uptimerobot.com/QLkLLS6KYE">Status</a>'
+    # For license compliance
+    footerRight = "Theme by Djordje Atlialp"
+
+    [languages.en.params.logo]
+      logoMark = ">"
+      logoText = "ashleymavericks"
+      logoHomeLink = "/"
+      # Disable distracting animation
+      logoCursorDisabled = true
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about"
+    weight     = 1000
+
+  [[menu.main]]
+    identifier = "releases"
+    name       = "Releases"
+    url        = "/patreon"
+    weight     = -100
