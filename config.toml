@@ -1,4 +1,4 @@
-baseURL = "localhost"
+baseURL = "https://anuragsingh.dev"
 languageCode = "en-us"
 title = "ashleymavericks"
 theme = "hello-friend-ng"
@@ -23,7 +23,7 @@ disableHugoGeneratorInject = true
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04"
 
-  homeSubtitle = "Backend dev & Hardware enthusiast"
+  homeSubtitle = "Backend dev & Homelab enthusiast"
   description = "Personal website and blog of Anurag Singh, a Backend developer"
   keywords = "anuragsingh, ashleymavericks, homepage, blog"
   images = [""]
@@ -49,6 +49,14 @@ disableHugoGeneratorInject = true
     url  = "https://github.com/ashleymavericks"
 
   [[params.social]]
+    name = "leetcode"
+    url  = "https://leetcode.com/ashleymavericks"
+
+  [[params.social]]
+    name = "youtube"
+    url  = "https://youtube.com/@ashleymavericks"
+
+  [[params.social]]
     name = "dev"
     url  = "https://dev.to/ashleymavericks"
 
@@ -66,7 +74,7 @@ disableHugoGeneratorInject = true
 
   [[params.social]]
     name = "email"
-    url  = "mailto:hello@anuragsingh.dev"
+    url  = "mailto:email@anuragsingh.dev"
 
 [languages]
   [languages.en]
@@ -76,9 +84,7 @@ disableHugoGeneratorInject = true
     readOtherPosts = "Read other posts"
 
     # Ideally this would be removed entirely, but the theme doesn't support that
-    footerLeft = '<a href="/terms-of-service">Terms</a> · <a href="/privacy-policy">Privacy</a> · <a href="https://stats.uptimerobot.com/EXpKwilGVY">Status</a>'
-    # For license compliance
-    footerRight = "Theme by Djordje Atlialp"
+    footerLeft = '<a href="/terms-of-service">Terms</a> · <a href="https://stats.uptimerobot.com/EXpKwilGVY">Status</a>'
 
     [languages.en.params.logo]
       logoMark = ">"
