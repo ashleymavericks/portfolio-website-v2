@@ -79,7 +79,7 @@ disableHugoGeneratorInject = true
 [languages]
   [languages.en]
     title = "Anurag Singh"
-    keywords = ""
+    keywords = "anuragsingh, ashleymavericks, homepage, blog"
     copyright = 'CC BY-NC 4.0'
     readOtherPosts = "Read other posts"
 
