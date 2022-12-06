@@ -19,4 +19,4 @@ $ git submodule add https://github.com/rhazdon/hugo-theme-hello-friend-ng.git th
 ```
 3. Edit [config.toml](/config.toml) for social media links, sub-pages routes, homepage and other configuration changes.
 4. Generate fevicon files with the help of generator & place it in static folder
-5. Deploy on hosting platforms like Vercel or GitHub pages
+5. Deploy on GitHub pages using GitHub action workflow.

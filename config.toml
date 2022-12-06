@@ -84,7 +84,7 @@ disableHugoGeneratorInject = true
     readOtherPosts = "Read other posts"
 
     # Ideally this would be removed entirely, but the theme doesn't support that
-    footerLeft = '<a href="/terms-of-service">Terms</a> · <a href="https://stats.uptimerobot.com/EXpKwilGVY">Status</a>'
+    footerLeft = '<a href="/terms-of-service">Terms</a> · <a href="https://stats.uptimerobot.com/wywn1IvQxB">Status</a>'
 
     [languages.en.params.logo]
       logoMark = ">"
