@@ -5,7 +5,6 @@ theme = "hello-friend-ng"
 
 paginate = 10
 disableHugoGeneratorInject = true
-googleAnalytics = "G-YMHCH1RB9C"
 
 [minify]
   minifyOutput = true
