@@ -1,1 +1,37 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Anurag Singh</title><link>https://anuragsingh.dev/posts/</link><description>Recent content in Posts on Anurag Singh</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>CC BY-NC 4.0</copyright><lastBuildDate>Thu, 01 Dec 2022 11:23:05 -0700</lastBuildDate><atom:link href="https://anuragsingh.dev/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Browser hot-reloading for Python ASGI web apps</title><link>https://anuragsingh.dev/posts/2022/12/browser-hot-reloading-for-python-asgi-web-apps/</link><pubDate>Sat, 03 Dec 2022 03:53:19 -0700</pubDate><guid>https://anuragsingh.dev/posts/2022/12/browser-hot-reloading-for-python-asgi-web-apps/</guid><description>Coming Soon</description><content type="html">&lt;h2 id="coming-soon">Coming Soon&lt;/h2></content></item><item><title>AR-PiZero — Augmented Reality for IoT</title><link>https://anuragsingh.dev/posts/2019/07/ar-pizero-augmented-reality-for-iot/</link><pubDate>Mon, 01 Jul 2019 03:53:19 -0700</pubDate><guid>https://anuragsingh.dev/posts/2019/07/ar-pizero-augmented-reality-for-iot/</guid><description>Coming soon</description><content type="html">&lt;h2 id="coming-soon">Coming soon&lt;/h2></content></item></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Anurag Singh</title><link>https://anuragsingh.dev/posts/</link><description>Recent content in Posts on Anurag Singh</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>CC BY-NC 4.0</copyright><lastBuildDate>Thu, 01 Dec 2022 11:23:05 -0700</lastBuildDate><atom:link href="https://anuragsingh.dev/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Browser hot-reloading for Python ASGI web apps</title><link>https://anuragsingh.dev/posts/2022/12/browser-hot-reloading-for-python-asgi-web-apps/</link><pubDate>Sat, 03 Dec 2022 03:53:19 -0700</pubDate><guid>https://anuragsingh.dev/posts/2022/12/browser-hot-reloading-for-python-asgi-web-apps/</guid><description>Coming Soon</description><content type="html">&lt;h2 id="coming-soon">Coming Soon&lt;/h2></content></item><item><title>AR-PiZero — Augmented Reality for IoT</title><link>https://anuragsingh.dev/posts/2019/07/ar-pizero-augmented-reality-for-iot/</link><pubDate>Mon, 01 Jul 2019 03:53:19 -0700</pubDate><guid>https://anuragsingh.dev/posts/2019/07/ar-pizero-augmented-reality-for-iot/</guid><description>Do you remember your first IoT experience? Because I do, when i first stepped in the world of IoT using Raspberry Pi, the experience was something like this:
+Noobs like me starting with Raspberry Pi 😐 Each one of us has suffered from the complex schematic of Electronic Chips while building products and if we see it from a Newbies perspective all it looks like an impossible quest.
+So What did I build?</description><content type="html"><![CDATA[<h2 id="do-you-remember-your-first-iot-experience">Do you remember your first IoT experience?</h2>
+<p>Because I do, when i first stepped in the world of IoT using Raspberry Pi, the experience was something like this:</p>
+
+  <figure class="center" >
+    <img src="/img/scary_gpio.webp"   style="border-radius: 8px;"  />
+    
+      <figcaption class="center" >Noobs like me starting with Raspberry Pi 😐</figcaption>
+    
+  </figure>
+
+
+<p>Each one of us has suffered from the complex schematic of Electronic Chips while building products and if we see it from a Newbies perspective all it looks like an impossible quest.</p>
+<h2 id="so-what-did-i-build">So What did I build?</h2>
+<p>AR-PiZero is a SparkAR application which provides an immersive Augmented Reality experience using Facebook Camera.</p>
+<p>Spark AR Studio lets the user design, build and share an AR experience across all platforms using Facebook Camera. It also provides a rich variety of 3D assets in its AR library. Moreover, users can also publish their AR models onto the AR library and can share them with the community if you were able to manage the size of the whole package to less than 20 MB. I manage to do that so it&rsquo;s not much of a concern.</p>
+<p>So, AR-PiZero provides a complex GPIO pins schematic of Electronic Boards like Raspberry Pi Zero in a very simple and immersive AR experience, which is helpful for both professionals and students. Since Facebook has provided with an ecosystem that provides a great distribution advantage using Facebook Camera, manufacturer’s can even embed the QR Code on the chip itself, redirecting the user to the AR experience without any hassle i.e.</p>
+
+  <figure class="center" >
+    <img src="/img/pi_zero.webp"   style="border-radius: 8px;"  />
+    
+      <figcaption class="center" >Embedded QR-Code</figcaption>
+    
+  </figure>
+
+
+<h2 id="finally-the-ar-experience">Finally the AR experience:</h2>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/FrIwxU_Zrhs" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="A New Hugo Site in Under Two Minutes"></iframe>
+</div>
+
+<h2 id="and-its-open-source">And it&rsquo;s Open-Source!</h2>
+<p>Check out the repository on GitHub: <a href="https://github.com/ashleymavericks/AR-PiZero">AR-PiZero</a></p>
+<p>Experience it here, all you need is a Facebook account: <a href="https://www.facebook.com/fbcameraeffects/tryit/638474867603874/">Try this effect in the Facebook camera</a></p>
+]]></content></item></channel></rss>
